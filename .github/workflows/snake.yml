@@ -1,0 +1,21 @@
+name: github-contribution-grid-snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Snake SVG
+        uses: Platane/github-contribution-grid-snake@v6.1.0
+        with:
+          output_directory: output
+          green_color: "#2ECC71"
+          dark_mode: true
