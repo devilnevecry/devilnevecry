@@ -1,4 +1,4 @@
-<h1 align="center">los33r</h1>
+<h1 align="center">🐉 los33r</h1>
 
 ###
 
@@ -66,11 +66,53 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/los33r/los33r/refs/heads/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/los33r/los33r/refs/heads/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/los33r/los33r/refs/heads/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devilnevecry/devilnevecry/refs/heads/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devilnevecry/devilnevecry/refs/heads/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/devilnevecry/devilnevecry/refs/heads/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
+
+## About
+
+I like building products end to end: from WebSocket data pipelines and Telegram bots to typed front ends and the Python services behind them.
+
+- **Bots & real-time data** — aiogram bots, live order-book streams over the Bybit v5 WebSocket API
+- **Backend** — Python, FastAPI, SQLAlchemy 2 (async), Alembic migrations, PostgreSQL, Redis
+- **Frontend** — Next.js (App Router), TypeScript, React
+- **Security-minded** — public-key encryption and steganography experiments, privacy-first data models
+- **Ops** — Docker Compose, CI, tests as proof that a feature actually works
+
+## Selected work
+
+### Zooffer — animal discovery & marketplace platform
+
+Russian-first platform that combines swipe-based discovery, mutual matches and messaging with classified listings, adoption, subscriptions and partner offers. One identity and one backend serve three interfaces: website, Telegram bot and Telegram Mini App. Owner privacy is a hard requirement: other users see a first name only.
+
+`Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Redis` `aiogram` `Alembic` `Docker`
+
+### Bybit order-book parser
+
+Telegram bot streaming live order-book data from the Bybit v5 WebSocket API and filtering it by user-defined price and volume thresholds for pairs such as BTC-USDT, ETH-USDT and SOL-USDT.
+
+`Python` `aiogram` `WebSocket`
+
+### stegacrypt
+
+Hides encrypted messages inside images: steganography combined with per-user public/private key pairs, so only the intended recipient can read the payload.
+
+`Python` `cryptography` `Pillow`
+
+### QuickBackup
+
+Backup utility for files and directories with ZIP/TAR output and logging of every operation.
+
+`Python`
+
+### psychologist_site
+
+Responsive landing page with a PHP booking form.
+
+`HTML` `CSS` `JavaScript` `PHP`
 
 ## Contact
 
